@@ -1,0 +1,153 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: #111;
+    color: #f5f5f5;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #000;
+}
+
+header h1 {
+    margin: 0;
+    color: #f0c000;
+    font-size: 36px;
+}
+
+header p {
+    margin-top: 10px;
+}
+
+nav {
+    text-align: center;
+    background-color: #1c1c1c;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f0c000;
+    font-weight: bold;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 35px;
+}
+
+h2 {
+    text-align: center;
+    color: #f0c000;
+    margin-bottom: 20px;
+}
+
+.tarjeta {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.tarjeta h3 {
+    margin-top: 0;
+    color: #ffffff;
+}
+
+video {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+audio {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 15px;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+#videos iframe {
+    width: 100%;
+    max-width: 500px;
+    height: 315px;
+    display: block;
+    margin-bottom: 15px;
+    border: none;
+}
+
+#audio iframe {
+    width: 100%;
+    max-width: 900px;
+    height: 352px;
+    display: block;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 12px;
+}
+
+#destacados iframe {
+    width: 100%;
+    max-width: 500px;
+    height: 315px;
+    display: block;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.descripcion-galeria{
+    color: yellow;
+       
+}
+
+a {
+    color: #f0c000;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #444;
+    margin: 30px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #ccc;
+}
+
+footer a {
+    color: #f0c000;
+    text-decoration: none;
+}

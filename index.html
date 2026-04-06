@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batman Multimedia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="inicio">
+        <h1>Bat Web</h1>
+        <p>Página web sobre videos, soundtracks e imágenes de Batman</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#audio">Soundtracks</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#destacados">Destacados</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="videos">
+            <h2>Videos</h2>
+
+            <article class="tarjeta" id="video1">
+                <h3>Escena de pelea final "The Batman"</h3>
+                <iframe
+                    src="https://www.youtube.com/embed/fF5NteByp5s?si=yEheDX8SPzZjck0V"
+                    title="Escena de pelea final de Batman en YouTube"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+                <p>
+                    Trailer oficial de Batman que muestra escenas emocionantes y el tono oscuro del personaje.
+                </p>
+                <p>
+                    <a href="https://www.youtube.com/watch?v=fF5NteByp5s" target="_blank">
+                        Ver video en YouTube
+                    </a>
+                </p>
+                <p><a href="#destacado1">Ir al video recomendado 1</a></p>
+            </article>
+
+            <article class="tarjeta" id="video2">
+                <h3>Escena de persecución "The dark Knight Rises"</h3>
+                <video controls preload="metadata"> 
+                    <source src="video/Batman02-web.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+                <p>
+                    Esta escena local muestra una parte icónica de una película de Batman para complementar el contenido multimedia.
+                </p>
+                <p>
+                    <a href="https://www.youtube.com/watch?v=qy0oX5A9WyY&t=4s" target="_blank">
+                        Ver video en YouTube
+                    </a>
+                </p>
+                <p><a href="#destacado2">Ir al video recomendado 2</a></p>
+                
+            </article>
+
+            <article class="tarjeta" id="video3">
+                <h3>Tráiler "The Batman"</h3>
+                <iframe
+                    src="https://www.youtube.com/embed/mqqft2x_Aa4"
+                    title="Tráiler de Batman en YouTube"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+                <p>
+                    Este contenido está embebido desde YouTube para mostrar otra forma de integrar multimedia dentro de la misma página.
+                </p>
+                <p>
+                    <a href="https://www.youtube.com/watch?v=mqqft2x_Aa4" target="_blank">
+                        Ver video en YouTube
+                    </a>
+                </p>
+            </article>
+        </section>
+
+        <hr>
+
+        <section id="audio">
+            <h2>Soundtracks</h2>
+
+            <article class="tarjeta">
+                <h3>Soundtrack Batman Forever</h3>
+                <audio controls>
+                    <source src="audio/SuiteFromBat.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el audio.
+                </audio>
+                <p>
+                    Esta pista representa el ambiente oscuro y serio del personaje.
+                </p>
+                <p>
+                    <a href="https://open.spotify.com/track/2zrPaz0LCuXTJVrlVjHThP?si=f681a0e79637469e" target="_blank">
+                        Encuéntrala en Spotify
+                    </a>
+                </p>
+            </article>
+
+            <article class="tarjeta">
+                <h3>Soundtrack The Batman</h3>
+                <iframe
+                    data-testid="embed-iframe"
+                    src="https://open.spotify.com/embed/track/1NkI8DtCnjcWVCVLF0gB71?utm_source=generator"
+                    title="Soundtrack de Batman en Spotify"
+                    allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy">
+                </iframe>
+                <p>
+                    En esta parte se muestra un soundtrack embebido desde Spotify para complementar la sección de música.
+                </p>
+            </article>
+
+            <article class="tarjeta">
+                <h3>Soundtrack The Dark Knight</h3>
+                <iframe
+                    data-testid="embed-iframe"
+                    src="https://open.spotify.com/embed/track/56pKYnSA0CyayMJWcEU5kH?utm_source=generator"
+                    title="Segundo soundtrack de Batman en Spotify"
+                    allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy">
+                </iframe>
+                <p>
+                    Este segundo soundtrack amplía la sección de música con otra pista relacionada con Batman.
+                </p>
+                
+            </article>
+        </section>
+
+        <hr>
+
+        <section id="galeria">
+            <h2>Galería de imágenes</h2>
+
+            <article class="tarjeta">
+                <h3>Batman</h3>
+                <img src="images/batmanfond.jpg" alt="Imagen de Batman" width="500" height="281">
+                <p>
+                    Imagen principal del personaje Batman.
+                </p>
+            </article>
+
+            <article class="tarjeta">
+                <h3>Logo de Batman</h3>
+                <img src="images/logobatman.jpg" alt="Logo de Batman" width="500" height="292">
+                <p>
+                    El logo es uno de los símbolos más conocidos del personaje.
+                </p>
+            </article>
+
+            <article class="tarjeta">
+                <h3>Ciudad Gótica</h3>
+                <img src="images/ciudadGotica.jpeg" alt="Imagen relacionada con Ciudad Gótica" width="500" height="281">
+                <p>
+                    Gotham City es el escenario principal de muchas historias de Batman.
+                </p>
+                <p><a href="#destacados">Ver destacados</a></p>
+            </article>
+
+            <article class="tarjeta">
+                <h3>Galería de fondos</h3>
+                <p class ="descripcion-galeria">
+                    <strong>Haz clic en la imagen para abrir una galería con fondos de pantalla de Batman.</strong>
+                </p>
+                <a href="galeria.html">
+                    <img src="images/batmanlego.png" alt="Haz clic para entrar a la galería de fondos de Batman" width="500" height="503">
+                </a>
+                
+            </article>
+        </section>
+
+        <hr>
+
+        <section id="destacados">
+            <h2>Destacados</h2>
+
+            <article class="tarjeta" id="destacado1">
+                <h3>Detrás de escenas "The Batman"</h3>
+                <iframe
+                    src="https://www.youtube.com/embed/__aTCuCURPo?si=UeGTD0TEn3Z7WZRo"
+                    title="Detrás de escenas The Batman"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+                <p>
+                    Este video recomendado amplía el contenido de Batman dentro de la misma página.
+                </p>
+                <p><a href="#video1">Volver al tráiler principal</a></p>
+            </article>
+
+            <article class="tarjeta" id="destacado2">
+                <h3>Detrás de escenas "The Dark Knight"</h3>
+                <iframe
+                    src="https://www.youtube.com/embed/8DApyG4kEcU?si=mCLWilNTnarJv5Eg"
+                    title="Segundo video recomendado de Batman"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+                <p>
+                    Otro video destacado para seguir explorando contenido multimedia.
+                </p>
+                <p><a href="#video2">Volver al tráiler local</a></p>
+            </article>
+
+            <article class="tarjeta">
+                <h3>Contenido recomendado</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.youtube.com/results?search_query=batman+official+trailer" target="_blank">
+                            Tráilers oficiales de Batman
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/search/batman%20soundtrack" target="_blank">
+                            Playlists de Batman en Spotify
+                        </a>
+                    </li>
+                    <li><a href="#videos">Volver a la sección de videos</a></li>
+                    
+                </ul>
+               
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Batman Multimedia - 2026 |
+            <a href="#inicio">Subir al inicio</a>
+        </p>
+    </footer>
+</body>
+</html>
